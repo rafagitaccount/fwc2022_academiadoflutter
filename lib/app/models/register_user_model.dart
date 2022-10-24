@@ -18,7 +18,7 @@ class RegisterUserModel {
       'name': name,
       'email': email,
       'password': password,
-      'passwordConfirmation': passwordConfirmation,
+      'password_confirmation': passwordConfirmation,
     };
   }
 
@@ -27,7 +27,7 @@ class RegisterUserModel {
       name: map['name'] ?? '',
       email: map['email'] ?? '',
       password: map['password'] ?? '',
-      passwordConfirmation: map['passwordConfirmation'] ?? '',
+      passwordConfirmation: map['password_confirmation'] ?? '',
     );
   }
 
